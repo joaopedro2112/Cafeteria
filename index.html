@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafeteria</title>
+    <link rel="shortcut icon" href="photos/logo.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <section class="navbar flex-between">
+            <img src="photos/logo.png" alt="Photo logo" class="logo">
+            <nav class="links-navbar flex">
+                <a href="#" class="link-navbar">Home</a>
+                <a href="#" class="link-navbar">Sobre</a>
+                <a href="#" class="link-navbar">Avaliações</a>
+                <a href="#" class="link-navbar address-text">Endereço</a>
+            </nav>
+            <div class="icons-navbar flex">
+                <img src="https://img.icons8.com/?size=100&id=132&format=png&color=FFFFFF" alt="Search icon"
+                    class="search-icon icon-width cursor">
+
+            </div>
+        </section>
+        <section class="search-section flex-center">
+            <form action="/search" method="get" class="flex-center">
+                <input type="search" name="q" id="search" placeholder="Procure o produto que você deseja">
+            </form>
+        </section>
+    </header>
+    <main>
+        <section class="address-section flex-center flex-column">
+            <h1>Nosso Endereço</h1>
+            <p>Estamos localizados em um ponto de fácil acesso, pensado para garantir praticidade e comodidade. Nosso
+                espaço foi preparado para oferecer um atendimento rápido, seguro e eficiente. Se precisar de ajuda para
+                chegar até nós, nossa equipe está à disposição para orientar você.</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14621.915529911379!2d-46.47965384458008!3d-23.62301519999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce69735cabc66d%3A0xd1d16a5cfd087dba!2sCoffe%20%26%20Point%20Aprisco%20IBAC!5e0!3m2!1spt-BR!2sbr!4v1776133641695!5m2!1spt-BR!2sbr"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                class="address-link"></iframe>
+        </section>
+        <section class="primary-section flex flex-column">
+            <div class="flex flex-column">
+                <h1>Code com o melhor café da região</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur repellendus nihil quisquam
+                    consequuntur, ab dolor mollitia quia, porro delectus recusandae dolorem fugit suscipit pariatur,
+                    blanditiis magnam. Nostrum magnam maiores quos.</p>
+                <button class="button-primary btn">Peça o seu AGORA</button>
+            </div>
+            <img src="photos/c0398300-c204-416f-a890-6e9e21818de5.png" alt="background primary mobile"
+                class="background-primary-mobile">
+            <img src="photos/home-img.jpg" alt="background primary desktop" class="background-primary-desktop">
+        </section>
+        <section class="card-about-us-section margin-top flex-center flex-column">
+            <h1><span>Sobre</span> nois</h1>
+            <div class="card flex flex-column">
+                <img src="photos/about-img.jpg" alt="photo-card-about-us">
+                <div class="card-content flex-column">
+                    <h1>O que faz nosso café especial</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod laborum voluptatum eos, corrupti
+                        sint eaque iure ut culpa ex totam fugit in libero repudiandae. Repellendus vel facilis molestiae
+                        omnis harum.</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod laborum voluptatum eos, corrupti
+                        sint eaque iure ut culpa ex totam fugit in libero repudiandae. Repellendus vel facilis molestiae
+                        omnis harum.</p>
+                    <button class="button-primary btn">Saber mais</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="animations.js"></script>
+</body>
+
+</html>
